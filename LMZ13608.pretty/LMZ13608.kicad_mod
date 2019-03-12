@@ -1,4 +1,4 @@
-(module LMZ13608 (layer F.Cu) (tedit 5C71D5AC)
+(module LMZ13608 (layer F.Cu) (tedit 5C87D3EF)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -29,4 +29,9 @@
   (pad 2 smd rect (at -5.08 9.5) (size 0.86 2.41) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -3.81 9.5) (size 0.86 2.41) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -6.35 9.5) (size 0.86 2.41) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/ottojo_KicadLibs/LMZ13608.pretty/NDY0011A.stp
+    (offset (xyz 0 0 0.8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
